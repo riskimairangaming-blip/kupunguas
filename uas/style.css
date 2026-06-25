@@ -1,0 +1,101 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 960px;
+    box-shadow: 0 0 20px rgba(57, 255, 20, 0.2);
+}
+
+.header {
+    background: linear-gradient(135deg, green,rgb(5, 121, 5));
+    color: black;
+    padding: 30px 20px;
+    text-align: center;
+    font-family: 'Arial Black', sans-serif;
+}
+
+.header h1 {
+    font-size: 32px;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.header p {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.nav {
+    background-color: black;
+    border-bottom: 3px solid greenyellow;
+}
+.nav a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+.nav a:hover {
+    background-color: greenyellow;
+    color: black;
+}
+
+.main {
+    background-color: #1e1e1e;
+    display: flex;
+    padding: 25px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: black;
+    border: 2px solid greenyellow;
+    padding: 20px;
+    border-radius: 8px;
+    flex-grow: 1;
+    flex-basis: 280px;
+    box-shadow: 0 4px 10px black
+    font-family: Arial, sans-serif;
+}
+
+.card h3 {
+    color: green;
+    margin-bottom: 15px;
+    border-bottom: 1px solid bisque;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+.card p {
+    color: white;
+    line-height: 2;
+    font-weight: bold;
+    text-align: left;
+    font-size: 14px;
+}
+
+/* Footer */
+.footer {
+    background-color: black;
+    color: orangered;
+    text-align: center;
+    padding: 18px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    border-top: 1px solid pink;
+}
